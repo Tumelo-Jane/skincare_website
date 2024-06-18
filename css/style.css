@@ -1,4 +1,6 @@
-
+body{
+    background: #E6DAD1;
+}
 
 main{
     display: flex;
@@ -179,8 +181,100 @@ html{
 
     font-size: 20px;
     height: 50px;
-    border-radius: 25
-    px;
+    border-radius: 25px;
     
 }
+
+#page3{
+    background: #F6F1EE;
+    display: flex;
+    width: 100%;
+}
+.cover{
+    flex: left;
+    width: 45%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.img{
+    float:right;
+    width: 50%;
+    height: 100%;
+}
+
+#page3 h1{
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+}
+
+#page3 p{
+    margin-left: 100px;
+    width: 260px;
+    font-size: 30px;
+}
+
+
+#page3 img{
+    height: 560px;
+    width: 530px;
+    margin-right: 160px;
+    margin-top: 70px;
+}
+
+/*end of page 3*/
+
+/*last page*/
+
+#page5{
+    background: #E6DAD1;
+    
+}
+.items{
+    display: flex;
+}
+
+#page5 h2{
+    padding-top: 100px;
+}
+
+#page5 h1{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#page5 h4{
+    font-size: 25px;
+    color: #9D5A4D;
+}
+.left-side{
+    flex: left;
+    width: 25%;
+    margin-left: 10px;
+}
+
+.left-side p{
+    font-size: 24px;
+    color: #9D5A4D;
+}
+
+.right-side{
+    float:right;
+    width: 72%;
+    margin-left: 10px;
+}
+
+
+.right-side div{
+    float: right;
+    width: 33%;
+    margin-left: 0px;
+}
+
+#page5 p{
+    color: #9D5A4D;
+}
+
+/*end of last page*/
 
